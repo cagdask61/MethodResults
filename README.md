@@ -1,4 +1,7 @@
 <h1 align="center">How to use</h1>
+<hr/>
+
+<a href="https://www.nuget.org/packages/Cagdas.Method.Results/">Download</a>
 
 <hr/>
 
