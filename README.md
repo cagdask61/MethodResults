@@ -1,5 +1,6 @@
 <h1 align="center">How to use</h1>
 
+<hr/>
 
 `IResult`
 ```c#
