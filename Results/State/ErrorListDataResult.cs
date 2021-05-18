@@ -13,5 +13,11 @@ namespace Results.State
         public ErrorListDataResult(List<LData> listData, string message) : base(listData, false, message)
         {
         }
+        public ErrorListDataResult(List<LData> listData, string[] tags) : base(listData, false, tags)
+        {
+        }
+        public ErrorListDataResult(List<LData> listData, string message, string[] tags) : base(listData, false, message, tags)
+        {
+        }
     }
 }

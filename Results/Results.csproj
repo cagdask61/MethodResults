@@ -2,11 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>Cagdas.Method.Results</PackageId>
+    <PackageId>Method.Results</PackageId>
     <Authors>Cagdas</Authors>
     <Company>Cagdas</Company>
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
+    <PackageTags>Result, Results, MethodResults, BackEndResults</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
+    <ApplicationIcon>NuGeticon.ico</ApplicationIcon>
+    <PackageIcon>NuGeticon.png</PackageIcon>
+    <Version>2.0.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Masaüstü\NuGeticon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

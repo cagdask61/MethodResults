@@ -15,9 +15,19 @@ namespace Results.Concrete
         {
             Message = message;
         }
+        public Result(bool state,string[] tags):this(state)
+        {
+            Tags = tags;
+        }
+        public Result(bool state,string message,string[] tags):this(state,message)
+        {
+            Tags = tags;
+        }
 
         public bool State { get; }
 
         public string Message { get; }
+
+        public string[] Tags { get; }
     }
 }
