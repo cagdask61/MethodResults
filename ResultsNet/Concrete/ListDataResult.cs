@@ -1,10 +1,9 @@
-﻿using Results.Abstract;
+﻿using ResultsNet.Abstract;
 using System;
-using System.Text;
-using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 
-namespace Results.Concrete
+namespace ResultsNet.Concrete
 {
     public class ListDataResult<LData> : Result, IListDataResult<LData>
     {

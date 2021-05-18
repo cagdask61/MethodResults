@@ -1,10 +1,10 @@
-﻿using Results.Abstract;
+﻿using ResultsNetCore.Abstract;
 using System;
-using System.Text;
 using System.Collections;
+using System.Text;
 using System.Collections.Generic;
 
-namespace Results.Concrete
+namespace ResultsNetCore.Concrete
 {
     public class ListDataResult<LData> : Result, IListDataResult<LData>
     {

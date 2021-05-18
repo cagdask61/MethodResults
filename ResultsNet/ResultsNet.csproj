@@ -1,19 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>Method.Results</PackageId>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Method.ResultsNet</PackageId>
     <Authors>Cagdas</Authors>
-    <Company>Cagdas</Company>
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
-    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetStandard, NetStandard</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
-    <ApplicationIcon>NuGeticon.ico</ApplicationIcon>
     <PackageIcon>NuGeticon.png</PackageIcon>
-    <Version>2.0.1</Version>
+    <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
+    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNet, Net,MethodResultsNet</PackageTags>
+    <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,10 +1,11 @@
-﻿using Results.Abstract;
-using System;
-using System.Text;
-using System.Collections;
+﻿using ResultsNetFramework.Abstract;
 using System.Collections.Generic;
+using System;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Results.Concrete
+namespace ResultsNetFramework.Concrete
 {
     public class ListDataResult<LData> : Result, IListDataResult<LData>
     {

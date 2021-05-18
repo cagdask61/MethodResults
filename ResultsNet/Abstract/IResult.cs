@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Results.Abstract
+namespace ResultsNet.Abstract
 {
     public interface IResult
     {
