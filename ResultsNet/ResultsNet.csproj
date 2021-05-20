@@ -11,6 +11,7 @@
     <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNet, Net,MethodResultsNet</PackageTags>
     <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
