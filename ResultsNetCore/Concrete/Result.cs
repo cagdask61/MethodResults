@@ -30,5 +30,7 @@ namespace ResultsNetCore.Concrete
         public string Message { get; }
 
         public string[] Tags { get; }
+
+        public int TagsLength { get => Tags.Length; }
     }
 }

@@ -7,14 +7,14 @@
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
-    <PackageIcon>NuGeticon.png</PackageIcon>
+    <PackageIcon>NuGet.png</PackageIcon>
     <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetCore, NetCore</PackageTags>
     <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Masaüstü\NuGeticon.png">
+    <None Include="..\..\..\..\OneDrive\Masaüstü\NuGet.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

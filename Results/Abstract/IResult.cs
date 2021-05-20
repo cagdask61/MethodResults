@@ -9,5 +9,6 @@ namespace Results.Abstract
         bool State { get; }
         string Message { get; }
         string[] Tags { get; }
+        int TagsLength { get; }
     }
 }
