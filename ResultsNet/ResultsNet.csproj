@@ -6,16 +6,16 @@
     <Authors>Cagdas</Authors>
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>NuGet.png</PackageIcon>
+    <PackageIcon>NugetTestIconTwo.png</PackageIcon>
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
-    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNet, Net,MethodResultsNet</PackageTags>
+    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNet, MethodResultsNet, Method, MethodResult</PackageTags>
     <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Masaüstü\NuGet.png">
+    <None Include="..\..\..\..\OneDrive\Masaüstü\NugetTestIconTwo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

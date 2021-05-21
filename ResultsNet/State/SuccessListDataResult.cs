@@ -14,10 +14,10 @@ namespace ResultsNet.State
         public SuccessListDataResult(List<LData> listData, string message) : base(listData, true, message)
         {
         }
-        public SuccessListDataResult(List<LData> listData, string[] tags) : base(listData, true, tags)
+        public SuccessListDataResult(List<LData> listData, params string[] tags) : base(listData, true, tags)
         {
         }
-        public SuccessListDataResult(List<LData> listData, string message, string[] tags) : base(listData, true, message, tags)
+        public SuccessListDataResult(List<LData> listData, string message, params string[] tags) : base(listData, true, message, tags)
         {
         }
     }

@@ -13,10 +13,10 @@ namespace Results.State
         public SuccessSingleDataResult(SData singleData, string message) : base(singleData, true, message)
         {
         }
-        public SuccessSingleDataResult(SData singleData, string[] tags) : base(singleData, true, tags)
+        public SuccessSingleDataResult(SData singleData,params string[] tags) : base(singleData, true, tags)
         {
         }
-        public SuccessSingleDataResult(SData singleData, string message,string[] tags) : base(singleData, true, message,tags)
+        public SuccessSingleDataResult(SData singleData, string message,params string[] tags) : base(singleData, true, message,tags)
         {
         }
 

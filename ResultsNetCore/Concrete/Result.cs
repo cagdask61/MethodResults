@@ -16,11 +16,11 @@ namespace ResultsNetCore.Concrete
         {
             Message = message;
         }
-        public Result(bool state, string[] tags) : this(state)
+        public Result(bool state, params string[] tags) : this(state)
         {
             Tags = tags;
         }
-        public Result(bool state, string message, string[] tags) : this(state, message)
+        public Result(bool state, string message, params string[] tags) : this(state, message)
         {
             Tags = tags;
         }

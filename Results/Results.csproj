@@ -8,16 +8,16 @@
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
-    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetStandard, NetStandard</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetStandard, NetStandard, MethodResult, Method</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
     <ApplicationIcon>NuGeticon.ico</ApplicationIcon>
-    <PackageIcon>NuGet.png</PackageIcon>
-    <Version>2.0.2</Version>
+    <PackageIcon>NugetTestIconTwo.png</PackageIcon>
+    <Version>2.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Masaüstü\NuGet.png">
+    <None Include="..\..\..\..\OneDrive\Masaüstü\NugetTestIconTwo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

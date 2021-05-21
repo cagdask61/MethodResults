@@ -13,10 +13,10 @@ namespace ResultsNetCore.State
         public ErrorSingleDataResult(SData singleData, string message) : base(singleData, false, message)
         {
         }
-        public ErrorSingleDataResult(SData singleData, string[] tags) : base(singleData, false, tags)
+        public ErrorSingleDataResult(SData singleData, params string[] tags) : base(singleData, false, tags)
         {
         }
-        public ErrorSingleDataResult(SData singleData, string message, string[] tags) : base(singleData, false, message, tags)
+        public ErrorSingleDataResult(SData singleData, string message, params string[] tags) : base(singleData, false, message, tags)
         {
         }
     }

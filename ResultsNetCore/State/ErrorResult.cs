@@ -14,10 +14,10 @@ namespace ResultsNetCore.State
         public ErrorResult(string message) : base(false, message)
         {
         }
-        public ErrorResult(string[] tags) : base(false, tags)
+        public ErrorResult(params string[] tags) : base(false, tags)
         {
         }
-        public ErrorResult(string message, string[] tags) : base(false, message, tags)
+        public ErrorResult(string message, params string[] tags) : base(false, message, tags)
         {
         }
 
