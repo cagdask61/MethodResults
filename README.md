@@ -7,11 +7,11 @@ using Results.State;
 <h1 align="center">How to use</h1>
 <hr/>
 
-<a href="https://www.nuget.org/packages/Cagdas.Method.Results/">Download</a>
+<a  href="https://www.nuget.org/packages/Cagdas.Method.Results/">Download</a>
 
 <hr/>
 
-`IResult`
+`IResult default`
 ```c#
 public IResult Add(string text)
 {
@@ -25,7 +25,7 @@ public IResult Add(string text)
 ```
 <hr/>
 
-`IResult Overloads`
+`IResult Overloads (message)`
 ```c#
 public IResult Add(string text)
 {
@@ -37,7 +37,20 @@ public IResult Add(string text)
   return new SuccessResult(" Success Add "); // SuccessResult => true and message
 }
 ```
+<hr/>
 
+`IResult Overloads (message and tags)`
+```c#
+public IResult Add(string text)
+{
+  if(text == null)
+  {
+    return new ErrorResult("Not Null","Error","ErrorTag"); // ErrorResult => false , message and tags
+  }
+  //add operation
+  return new SuccessResult(" Success Add ","Success","SuccessOperation"); // SuccessResult => true , message and tags
+}
+```
 
 <hr/>
 
