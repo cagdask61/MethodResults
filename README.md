@@ -95,3 +95,47 @@ public IListDataResult<Product> GetByCategory(int categoryId)
   return new SuccessListDataResult<Product>(_productDal.GetAll(product => product.categoryId == categoryId)); 
 }
 ```
+
+<hr/>
+
+`IDataResult<Data>`
+```c#
+public IDataResult<Product> GetByProductId(int productId)
+{
+  // SuccessDataResult<Product> => Product and true
+  return new SuccessDataResult<Product>(_productDal.Get(product => product.productId == productId)); 
+}
+```
+
+<hr/>
+
+`IDataResult<Data> OverLoads`
+```c#
+public IDataResult<Product> GetByProductId(int productId)
+{
+  // SuccessDataResult<Product> => Product , true , message and tags
+  return new SuccessDataResult<Product>(_productDal.Get(product => product.productId == productId),"Message","tag1","tag2"); 
+}
+```
+
+<hr/>
+
+`IDataResult<Data> List`
+```c#
+public IDataResult<List<Product>> GetAll()
+{
+  // SuccessDataResult<List<Product>> => Product List and true
+  return new SuccessDataResult<List<Product>>(_productDal.GetAll()); 
+}
+```
+
+<hr/>
+
+`IDataResult<Data> List OverLoads`
+```c#
+public IDataResult<List<Product>> GetAll()
+{
+  // SuccessDataResult<List<Product>> => Product List, true , message and tags
+  return new SuccessDataResult<List<Product>>(_productDal.GetAll(),"Message","tag1","tag2"); 
+}
+```
