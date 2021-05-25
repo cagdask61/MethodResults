@@ -4,12 +4,15 @@ using Results.Abstract;
 using Results.State;
 ```
 <hr/>
+
 <h1 align="center">How to use</h1>
+
 <hr/>
 
-<a  href="https://www.nuget.org/packages/Method.Results/">Net Standard Download</a>
-<a href="https://www.nuget.org/packages/Method.ResultsNet/">Net Donwload</a>
-<a href="https://www.nuget.org/packages/Method.ResultsNetCore/">Net Core Download</a>
+* [Net Standard Download](https://www.nuget.org/packages/Method.Results/)
+* [Net Download](https://www.nuget.org/packages/Method.ResultsNet/)
+* [Net Core Download](https://www.nuget.org/packages/Method.ResultsNetCore/)
+
 <hr/>
 
 `IResult default`
