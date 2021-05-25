@@ -7,8 +7,9 @@ using Results.State;
 <h1 align="center">How to use</h1>
 <hr/>
 
-<a  href="https://www.nuget.org/packages/Cagdas.Method.Results/">Download</a>
-
+<a  href="https://www.nuget.org/packages/Method.Results/">Net Standard Download</a>
+<a href="https://www.nuget.org/packages/Method.ResultsNet/">Net Donwload</a>
+<a href="https://www.nuget.org/packages/Method.ResultsNetCore/">Net Core Download</a>
 <hr/>
 
 `IResult default`
