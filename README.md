@@ -45,10 +45,10 @@ public IResult Add(string text)
 {
   if(text == null)
   {
-    return new ErrorResult("Not Null","Error","ErrorTag"); // ErrorResult => false , message and tags
+    return new ErrorResult("Not Null","Error","ErrorTag1","ErrorTag2"); // ErrorResult => false , message and tags
   }
   //add operation
-  return new SuccessResult(" Success Add ","Success","SuccessOperation"); // SuccessResult => true , message and tags
+  return new SuccessResult(" Success Add ","Success","SuccessTag1","SuccessTag2"); // SuccessResult => true , message and tags
 }
 ```
 
