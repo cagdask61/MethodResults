@@ -7,15 +7,15 @@
     <Description>Tool for Methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
-    <PackageIcon>NugetTestIconTwo.png</PackageIcon>
+    <PackageIcon>resulticon.png</PackageIcon>
     <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetCore, NetCore, MethodResult, Method</PackageTags>
     <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\OneDrive\Masaüstü\NugetTestIconTwo.png">
+    <None Include="..\..\..\..\OneDrive\Masaüstü\resulticon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

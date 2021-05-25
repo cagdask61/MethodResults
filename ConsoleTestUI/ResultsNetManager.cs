@@ -1,6 +1,5 @@
-﻿using ResultsNet.Abstract;
-using ResultsNet.Concrete;
-using ResultsNet.State;
+﻿using Results.Abstract;
+using Results.State;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +10,5 @@ namespace ConsoleTestUI
 {
     public class ResultsNetManager
     {
-
-        public IResult Get(string message)
-        {
-            if (message == null)
-            {
-                return new ErrorResult("Error");
-            }
-            return new SuccessResult("Success");
-        }
     }
 }
