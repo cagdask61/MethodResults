@@ -8,6 +8,18 @@ namespace ResultsNet.State
 {
     public class SuccessListDataResult<LData> : ListDataResult<LData>
     {
+        public SuccessListDataResult() : base(default, true)
+        {
+        }
+        public SuccessListDataResult(string message) : base(default, true, message)
+        {
+        }
+        public SuccessListDataResult(params string[] tags) : base(default, true, tags)
+        {
+        }
+        public SuccessListDataResult(string message, params string[] tags) : base(default, true, message, tags)
+        {
+        }
         public SuccessListDataResult(List<LData> listData) : base(listData, true)
         {
         }

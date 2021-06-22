@@ -15,11 +15,11 @@ namespace ResultsNet.Concrete
         {
             ListData = listData;
         }
-        public ListDataResult(List<LData> listData, bool state, string[] tags) : base(state, tags)
+        public ListDataResult(List<LData> listData, bool state,params string[] tags) : base(state, tags)
         {
             ListData = listData;
         }
-        public ListDataResult(List<LData> listData, bool state, string message, string[] tags) : base(state, message, tags)
+        public ListDataResult(List<LData> listData, bool state, string message,params string[] tags) : base(state, message, tags)
         {
             ListData = listData;
         }
@@ -27,5 +27,7 @@ namespace ResultsNet.Concrete
         public List<LData> ListData { get; }
 
         public int Count { get => ListData.Count; }
+
+        public LData[] ArrayData { get=>ListData.ToArray(); }
     }
 }

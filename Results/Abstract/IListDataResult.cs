@@ -8,5 +8,7 @@ namespace Results.Abstract
     {
         List<LData> ListData { get; }
         int Count { get; }
+        LData[] ArrayData { get; }
     }
+
 }

@@ -9,9 +9,9 @@
     <PackageIcon>resulticon.png</PackageIcon>
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
     <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNet, MethodResultsNet, Method, MethodResult</PackageTags>
-    <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
+    <PackageReleaseNotes>New Tools</PackageReleaseNotes>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.6</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

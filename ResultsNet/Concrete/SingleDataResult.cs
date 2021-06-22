@@ -15,11 +15,11 @@ namespace ResultsNet.Concrete
         {
             SingleData = singleData;
         }
-        public SingleDataResult(SData singleData, bool state,string[] tags) : base(state,tags)
+        public SingleDataResult(SData singleData, bool state,params string[] tags) : base(state,tags)
         {
             SingleData = singleData;
         }
-        public SingleDataResult(SData singleData, bool state,string message,string[] tags) : base(state,message,tags)
+        public SingleDataResult(SData singleData, bool state,string message,params string[] tags) : base(state,message,tags)
         {
             SingleData = singleData;
         }

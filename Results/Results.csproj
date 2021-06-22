@@ -10,10 +10,10 @@
     <RepositoryUrl>https://github.com/cagdask61/MethodResults</RepositoryUrl>
     <PackageTags>Result, Results, MethodResults, BackEndResults, ResultsNetStandard, NetStandard, MethodResult, Method</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Tool for Methods</PackageReleaseNotes>
+    <PackageReleaseNotes>New Tools</PackageReleaseNotes>
     <ApplicationIcon>NuGeticon.ico</ApplicationIcon>
     <PackageIcon>resulticon.png</PackageIcon>
-    <Version>2.0.6</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

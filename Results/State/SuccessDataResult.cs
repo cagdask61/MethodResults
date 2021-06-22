@@ -7,7 +7,18 @@ namespace Results.State
 {
     public class SuccessDataResult<D> : DataResult<D>
     {
-
+        public SuccessDataResult() : base(default, true)
+        {
+        }
+        public SuccessDataResult(string message) : base(default, true, message)
+        {
+        }
+        public SuccessDataResult(params string[] tags) : base(default, true, tags)
+        {
+        }
+        public SuccessDataResult(string message, params string[] tags) : base(default, true, message, tags)
+        {
+        }
         public SuccessDataResult(D data):base(data,true)
         {
         }

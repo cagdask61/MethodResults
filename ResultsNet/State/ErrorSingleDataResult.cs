@@ -7,6 +7,18 @@ namespace ResultsNet.State
 {
     public class ErrorSingleDataResult<SData> : SingleDataResult<SData>
     {
+        public ErrorSingleDataResult() : base(default, false)
+        {
+        }
+        public ErrorSingleDataResult(string message) : base(default, false, message)
+        {
+        }
+        public ErrorSingleDataResult(params string[] tags) : base(default, false, tags)
+        {
+        }
+        public ErrorSingleDataResult(string message, params string[] tags) : base(default, false, message, tags)
+        {
+        }
         public ErrorSingleDataResult(SData singleData) : base(singleData, false)
         {
         }

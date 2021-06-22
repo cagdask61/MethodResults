@@ -7,6 +7,18 @@ namespace ResultsNetCore.State
 {
     public class SuccessSingleDataResult<SData> : SingleDataResult<SData>
     {
+        public SuccessSingleDataResult() : base(default, true)
+        {
+        }
+        public SuccessSingleDataResult(string message) : base(default, true, message)
+        {
+        }
+        public SuccessSingleDataResult(params string[] tags) : base(default, true, tags)
+        {
+        }
+        public SuccessSingleDataResult(string message, params string[] tags) : base(default, true, message, tags)
+        {
+        }
         public SuccessSingleDataResult(SData singleData) : base(singleData, true)
         {
         }
