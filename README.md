@@ -35,10 +35,10 @@ public IResult Add(string text)
 {
   if(text == null)
   {
-    return new ErrorResult("Not Null"); // ErrorResult => false and message
+    return new ErrorResult(message:"Not Null"); // ErrorResult => false and message
   }
   //add operation
-  return new SuccessResult(" Success Add "); // SuccessResult => true and message
+  return new SuccessResult(message:" Success Add "); // SuccessResult => true and message
 }
 ```
 <hr/>
@@ -49,10 +49,10 @@ public IResult Add(string text)
 {
   if(text == null)
   {
-    return new ErrorResult("Not Null","Error","ErrorTag1","ErrorTag2"); // ErrorResult => false , message and tags
+    return new ErrorResult(message:"Not Null","Errortag","ErrorTag1","ErrorTag2"); // ErrorResult => false , message and tags
   }
   //add operation
-  return new SuccessResult(" Success Add ","Success","SuccessTag1","SuccessTag2"); // SuccessResult => true , message and tags
+  return new SuccessResult(message:" Success Add ","Successtag","SuccessTag1","SuccessTag2"); // SuccessResult => true , message and tags
 }
 ```
 
@@ -74,7 +74,7 @@ public ISingleDataResult<Product> GetByProductId(int productId)
 public ISingleDataResult<Product> GetByProductId(int productId)
 {
     // SuccessSingleDataResult<Product> => Product , true and message
-    return new SuccessSingleDataResult<Product>(_productDal.GetProduct(product => product.Id == productId)," Data Listed ");  
+    return new SuccessSingleDataResult<Product>(_productDal.GetProduct(product => product.Id == productId),message:" Data Listed ");  
 }
 ```
 
@@ -96,7 +96,7 @@ public IListDataResult<Product> GetByCategory(int categoryId)
 public IListDataResult<Product> GetByCategory(int categoryId)
 {
   // SuccessListDataResult<Product> => List<Product> , true , message and count
-  return new SuccessListDataResult<Product>(_productDal.GetAll(product => product.categoryId == categoryId)); 
+  return new SuccessListDataResult<Product>(_productDal.GetAll(product => product.categoryId == categoryId),message:"data listed"); 
 }
 ```
 
@@ -118,7 +118,7 @@ public IDataResult<Product> GetByProductId(int productId)
 public IDataResult<Product> GetByProductId(int productId)
 {
   // SuccessDataResult<Product> => Product , true , message and tags
-  return new SuccessDataResult<Product>(_productDal.Get(product => product.productId == productId),"Message","tag1","tag2"); 
+  return new SuccessDataResult<Product>(_productDal.Get(product => product.productId == productId),message:"data listed","tag1","tag2"); 
 }
 ```
 
@@ -140,6 +140,6 @@ public IDataResult<List<Product>> GetAll()
 public IDataResult<List<Product>> GetAll()
 {
   // SuccessDataResult<List<Product>> => Product List, true , message and tags
-  return new SuccessDataResult<List<Product>>(_productDal.GetAll(),"Message","tag1","tag2"); 
+  return new SuccessDataResult<List<Product>>(_productDal.GetAll(),message:"data listed","tag1","tag2"); 
 }
 ```
